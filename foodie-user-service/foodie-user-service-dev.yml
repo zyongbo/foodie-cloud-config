@@ -1,0 +1,12 @@
+#db and password
+mariadb:
+  url: jdbc:mysql://localhost:3306/foodie-shop-dev?useUnicode=true&zeroDateTimeBehavior=convertToNull&autoReconnect=true&characterEncoding=utf-8&serverTimezone=UTC
+  username: root
+  password: '{cipher}b0cba68c9ff88b58779f04b87cfaf6b01ba3b0db29561cf434d6a5b48eb7ef96'
+
+#enable/disable registration
+userservice:
+  registration:
+    disabled: true
+    
+#actuator
